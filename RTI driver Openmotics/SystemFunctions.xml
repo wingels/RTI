@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<functions>
+  <category name="Output Actions">
+    <function name="Output On" export="OutputOn" repeatrate="0">
+      <parameter name="Output" type="integer" default="0" description="Output (0-239) to switch ON" />
+    </function>
+    <function name="Output Off" export="OutputOff" repeatrate="0">
+      <parameter name="Output" type="integer" default="0" description="Output (0-239) to switch OFF" />
+    </function>
+    <function name="Toggle Output" export="ToggleOutput" repeatrate="0">
+      <parameter name="Output" type="integer" default="0" description="Output (0-239) to Toggle" />
+    </function>
+    <function name="Set Dimmer" export="SetDimmer" repeatrate="0">
+      <parameter name="Output Number" type="integer" default="0" description="Output (0-239)" />
+      <parameter name="Dimmer Value" type="integer" default="0" description="Dimmer Value (0-63)" />
+    </function>
+    <function name="Dim up last activated output/light" export="OutputDimUp" repeatrate="0" />
+    <function name="Dim down last activated output/light" export="OutputDimDown" repeatrate="0" />
+    <function name="Select output as last activated output" export="SelectLastDimmer" repeatrate="0">
+      <parameter name="Output" type="integer" default="0" description="Output (0-239) to select as last activated dimmer" />
+    </function>
+    <function name="Basic Action" export="BasicAction" repeatrate="0">
+      <parameter name="Action Type" type="integer" default="0" description="Action Type (0-254) to be executed" />
+      <parameter name="Action Number" type="integer" default="0" description="Action Number (0-255) to be executed" />
+    </function>
+  </category>
+  <category name="Thermostat Actions">
+    <function name="Thermostat Setpoint Up" export="ThermostatUp" repeatrate="0">
+      <parameter name="ThermostatNr" type="integer" default="0" description="Thermostat nr (0-23)" />
+    </function>
+    <function name="Thermostat Setpoint Down" export="ThermostatDown" repeatrate="0">
+      <parameter name="ThermostatNr" type="integer" default="0" description="Thermostat nr (0-23)" />
+    </function>
+    <function name="Set Thermostat to Automatic mode" export="SetThermostatAutomatic" repeatrate="0" />
+    <function name="Set Thermostat to Away mode" export="SetThermostatAway" repeatrate="0" />
+    <function name="Set Thermostat to Vacation mode" export="SetThermostatVacation" repeatrate="0" />
+    <function name="Set Thermostat to Party mode" export="SetThermostatParty" repeatrate="0" />
+  </category>
+  <category name="API instructions">
+    <function name="Send OL" export="SendOL" repeatrate="0" /> 
+    <function name="Send tl" export="Sendtl" repeatrate="0" />
+    <function name="Send RS" export="ThermostatDetails" repeatrate="0">
+      <parameter name="ThermostatNr" type="integer" default="0" description="Thermostat nr (0-23)" />
+    </function>  
+  </category>
+</functions>

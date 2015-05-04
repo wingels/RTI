@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<driverManifest>
+	<driver
+		id="{DE79851F-F861-4fb9-B2D7-EB9652E8094F}"
+
+		name="OpenMotics"
+		author="OpenMotics BVBA"
+		copyright="Copyright 2015 OpenMotics BVBA"
+		deviceManufacturer="OpenMotics"
+		deviceModel="OpenMotics Serial"
+		driverVersion="1.0"
+
+		minimumRuntimeVersion="1"		
+		minimumSoftwareVersion="9.0"
+
+		processorType="XP-8"
+
+		configSettingsStream="ConfigSettings.xml"
+		systemVariablesStream="SystemVariables.xml"
+    		systemFunctionsStream="SystemFunctions.xml"
+		systemEventsStream="SystemEvents.xml"
+		helpTextStream="instructions.rtf"
+	>
+		<processorScript stream="openmotics.js" />
+
+		<package>
+			<output filename="OpenMotics Serial" public="false"/>
+      <include filename="OpenMotics.rti"/>
+      <description>
+        OpenMotics Home automation driver
+      </description>
+		</package>
+
+	</driver>
+</driverManifest>

@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<variables>
+  <category name="Communications">
+    <variable name="Nr of Lights ON" sysvar="LIGHTSON" type="integer" sample="5" min="0" max="240" />
+    <variable name="Nr of Outputs ON" sysvar="OUTPUTSON" type="integer" sample="5" min="0" max="240" />
+    <variable name="Output STR 0" sysvar="Output0" type="string" sample="ON 100%" />
+    <variable name="Output STR 1" sysvar="Output1" type="string" sample="ON 100%" />
+    <variable name="Output STR 2" sysvar="Output2" type="string" sample="ON 100%" />
+    <variable name="Output STR 3" sysvar="Output3" type="string" sample="ON 100%" />
+    <variable name="Output STR 4" sysvar="Output4" type="string" sample="ON 100%" />
+    <variable name="Output STR 5" sysvar="Output5" type="string" sample="ON 100%" />
+    <variable name="Output STR 6" sysvar="Output6" type="string" sample="ON 100%" />
+    <variable name="Output STR 7" sysvar="Output7" type="string" sample="ON 100%" />
+    <variable name="Output STR 8" sysvar="Output8" type="string" sample="ON 100%" />
+    <variable name="Output STR 9" sysvar="Output9" type="string" sample="ON 100%" />
+    <variable name="Output STR 10" sysvar="Output10" type="string" sample="ON 100%" />
+    <variable name="Output STR 11" sysvar="Output11" type="string" sample="ON 100%" />
+    <variable name="Output STR 12" sysvar="Output12" type="string" sample="ON 100%" />
+    <variable name="Output STR 13" sysvar="Output13" type="string" sample="ON 100%" />
+    <variable name="Output STR 14" sysvar="Output14" type="string" sample="ON 100%" />
+    <variable name="Output STR 15" sysvar="Output15" type="string" sample="ON 100%" />
+    <variable name="Output STR 16" sysvar="Output16" type="string" sample="ON 100%" />
+    <variable name="Output STR 17" sysvar="Output17" type="string" sample="ON 100%" />
+    <variable name="Output STR 18" sysvar="Output18" type="string" sample="ON 100%" />
+    <variable name="Output STR 19" sysvar="Output19" type="string" sample="ON 100%" />
+    <variable name="Output STR 20" sysvar="Output20" type="string" sample="ON 100%" />
+    <variable name="Output STR 21" sysvar="Output21" type="string" sample="ON 100%" />
+    <variable name="Output STR 22" sysvar="Output22" type="string" sample="ON 100%" />
+    <variable name="Output STR 23" sysvar="Output23" type="string" sample="ON 100%" />
+    <variable name="Output STR 24" sysvar="Output24" type="string" sample="ON 100%" />
+    <variable name="Output STR 25" sysvar="Output25" type="string" sample="ON 100%" />
+    <variable name="Output STR 26" sysvar="Output26" type="string" sample="ON 100%" />
+    <variable name="Output STR 27" sysvar="Output27" type="string" sample="ON 100%" />
+    <variable name="Output STR 28" sysvar="Output28" type="string" sample="ON 100%" />
+    <variable name="Output STR 29" sysvar="Output29" type="string" sample="ON 100%" />
+    <variable name="Output STR 30" sysvar="Output30" type="string" sample="ON 100%" />
+    <variable name="Output STR 31" sysvar="Output31" type="string" sample="ON 100%" />
+    <variable name="Output STR 32" sysvar="Output32" type="string" sample="ON 100%" />
+    <variable name="Output STR 33" sysvar="Output33" type="string" sample="ON 100%" />
+    <variable name="Output STR 34" sysvar="Output34" type="string" sample="ON 100%" />
+    <variable name="Output STR 35" sysvar="Output35" type="string" sample="ON 100%" />
+    <variable name="Output STR 36" sysvar="Output36" type="string" sample="ON 100%" />
+    <variable name="Output STR 37" sysvar="Output37" type="string" sample="ON 100%" />
+    <variable name="Output STR 38" sysvar="Output38" type="string" sample="ON 100%" />
+    <variable name="Output STR 39" sysvar="Output39" type="string" sample="ON 100%" />
+    <variable name="Output STR 40" sysvar="Output40" type="string" sample="ON 100%" />
+    <variable name="Output STR 41" sysvar="Output41" type="string" sample="ON 100%" />
+    <variable name="Output STR 42" sysvar="Output42" type="string" sample="ON 100%" />
+    <variable name="Output STR 43" sysvar="Output43" type="string" sample="ON 100%" />
+    <variable name="Output STR 44" sysvar="Output44" type="string" sample="ON 100%" />
+    <variable name="Output STR 45" sysvar="Output45" type="string" sample="ON 100%" />
+    <variable name="Output STR 46" sysvar="Output46" type="string" sample="ON 100%" />
+    <variable name="Output STR 47" sysvar="Output47" type="string" sample="ON 100%" />
+    <variable name="Output STR 48" sysvar="Output48" type="string" sample="ON 100%" />
+    <variable name="Output STR 49" sysvar="Output49" type="string" sample="ON 100%" />
+    <variable name="Output STR 50" sysvar="Output50" type="string" sample="ON 100%" />
+    <variable name="Output STR 51" sysvar="Output51" type="string" sample="ON 100%" />
+    <variable name="Output STR 52" sysvar="Output52" type="string" sample="ON 100%" />
+    <variable name="Output STR 53" sysvar="Output53" type="string" sample="ON 100%" />
+    <variable name="Output STR 54" sysvar="Output54" type="string" sample="ON 100%" />
+    <variable name="Output STR 55" sysvar="Output55" type="string" sample="ON 100%" />
+    <variable name="Output STR 56" sysvar="Output56" type="string" sample="ON 100%" />
+    <variable name="Output STR 57" sysvar="Output57" type="string" sample="ON 100%" />
+    <variable name="Output STR 58" sysvar="Output58" type="string" sample="ON 100%" />
+    <variable name="Output STR 59" sysvar="Output59" type="string" sample="ON 100%" />
+    <variable name="Output STR 60" sysvar="Output60" type="string" sample="ON 100%" />
+    <variable name="Output STR 61" sysvar="Output61" type="string" sample="ON 100%" />
+    <variable name="Output STR 62" sysvar="Output62" type="string" sample="ON 100%" />
+    <variable name="Output STR 63" sysvar="Output63" type="string" sample="ON 100%" />
+    <variable name="Output STR 64" sysvar="Output64" type="string" sample="ON 100%" />
+    <variable name="Output STR 65" sysvar="Output65" type="string" sample="ON 100%" />
+    <variable name="Output STR 66" sysvar="Output66" type="string" sample="ON 100%" />
+    <variable name="Output STR 67" sysvar="Output67" type="string" sample="ON 100%" />
+    <variable name="Output STR 68" sysvar="Output68" type="string" sample="ON 100%" />
+    <variable name="Output STR 69" sysvar="Output69" type="string" sample="ON 100%" />
+    <variable name="Output STR 70" sysvar="Output70" type="string" sample="ON 100%" />
+    <variable name="Output STR 71" sysvar="Output71" type="string" sample="ON 100%" />
+    <variable name="Output STR 72" sysvar="Output72" type="string" sample="ON 100%" />
+    <variable name="Output STR 73" sysvar="Output73" type="string" sample="ON 100%" />
+    <variable name="Output STR 74" sysvar="Output74" type="string" sample="ON 100%" />
+    <variable name="Output STR 75" sysvar="Output75" type="string" sample="ON 100%" />
+    <variable name="Output STR 76" sysvar="Output76" type="string" sample="ON 100%" />
+    <variable name="Output STR 77" sysvar="Output77" type="string" sample="ON 100%" />
+    <variable name="Output STR 78" sysvar="Output78" type="string" sample="ON 100%" />
+    <variable name="Output STR 79" sysvar="Output79" type="string" sample="ON 100%" />
+    <variable name="Output STR 80" sysvar="Output80" type="string" sample="ON 100%" />
+    <variable name="Output STR 81" sysvar="Output81" type="string" sample="ON 100%" />
+    <variable name="Output STR 82" sysvar="Output82" type="string" sample="ON 100%" />
+    <variable name="Output STR 83" sysvar="Output83" type="string" sample="ON 100%" />
+    <variable name="Output STR 84" sysvar="Output84" type="string" sample="ON 100%" />
+    <variable name="Output STR 85" sysvar="Output85" type="string" sample="ON 100%" />
+    <variable name="Output STR 86" sysvar="Output86" type="string" sample="ON 100%" />
+    <variable name="Output STR 87" sysvar="Output87" type="string" sample="ON 100%" />
+    <variable name="Output STR 88" sysvar="Output88" type="string" sample="ON 100%" />
+    <variable name="Output STR 89" sysvar="Output89" type="string" sample="ON 100%" />
+    <variable name="Output STR 90" sysvar="Output90" type="string" sample="ON 100%" />
+    <variable name="Output STR 91" sysvar="Output91" type="string" sample="ON 100%" />
+    <variable name="Output STR 92" sysvar="Output92" type="string" sample="ON 100%" />
+    <variable name="Output STR 93" sysvar="Output93" type="string" sample="ON 100%" />
+    <variable name="Output STR 94" sysvar="Output94" type="string" sample="ON 100%" />
+    <variable name="Output STR 95" sysvar="Output95" type="string" sample="ON 100%" />
+    <variable name="Output STR 96" sysvar="Output96" type="string" sample="ON 100%" />
+    <variable name="Output STR 97" sysvar="Output97" type="string" sample="ON 100%" />
+    <variable name="Output STR 98" sysvar="Output98" type="string" sample="ON 100%" />
+    <variable name="Output STR 99" sysvar="Output99" type="string" sample="ON 100%" />
+    <variable name="Output STR 100" sysvar="Output100" type="string" sample="ON 100%" />
+    <variable name="Output STR 101" sysvar="Output101" type="string" sample="ON 100%" />
+    <variable name="Output STR 102" sysvar="Output102" type="string" sample="ON 100%" />
+    <variable name="Output STR 103" sysvar="Output103" type="string" sample="ON 100%" />
+    <variable name="Output STR 104" sysvar="Output104" type="string" sample="ON 100%" />
+    <variable name="Output STR 105" sysvar="Output105" type="string" sample="ON 100%" />
+    <variable name="Output STR 106" sysvar="Output106" type="string" sample="ON 100%" />
+    <variable name="Output STR 107" sysvar="Output107" type="string" sample="ON 100%" />
+    <variable name="Output STR 108" sysvar="Output108" type="string" sample="ON 100%" />
+    <variable name="Output STR 109" sysvar="Output109" type="string" sample="ON 100%" />
+    <variable name="Output STR 110" sysvar="Output110" type="string" sample="ON 100%" />
+    <variable name="Output STR 111" sysvar="Output111" type="string" sample="ON 100%" />
+    <variable name="Output STR 112" sysvar="Output112" type="string" sample="ON 100%" />
+    <variable name="Output STR 113" sysvar="Output113" type="string" sample="ON 100%" />
+    <variable name="Output STR 114" sysvar="Output114" type="string" sample="ON 100%" />
+    <variable name="Output STR 115" sysvar="Output115" type="string" sample="ON 100%" />
+    <variable name="Output STR 116" sysvar="Output116" type="string" sample="ON 100%" />
+    <variable name="Output STR 117" sysvar="Output117" type="string" sample="ON 100%" />
+    <variable name="Output STR 118" sysvar="Output118" type="string" sample="ON 100%" />
+    <variable name="Output STR 119" sysvar="Output119" type="string" sample="ON 100%" />
+    <variable name="Output STR 120" sysvar="Output120" type="string" sample="ON 100%" />
+    <variable name="Output STR 121" sysvar="Output121" type="string" sample="ON 100%" />
+    <variable name="Output STR 122" sysvar="Output122" type="string" sample="ON 100%" />
+    <variable name="Output STR 123" sysvar="Output123" type="string" sample="ON 100%" />
+    <variable name="Output STR 124" sysvar="Output124" type="string" sample="ON 100%" />
+    <variable name="Output STR 125" sysvar="Output125" type="string" sample="ON 100%" />
+    <variable name="Output STR 126" sysvar="Output126" type="string" sample="ON 100%" />
+    <variable name="Output STR 127" sysvar="Output127" type="string" sample="ON 100%" />
+    <variable name="Output STR 128" sysvar="Output128" type="string" sample="ON 100%" />
+    <variable name="Output STR 129" sysvar="Output129" type="string" sample="ON 100%" />
+    <variable name="Output STR 130" sysvar="Output130" type="string" sample="ON 100%" />
+    <variable name="Output STR 131" sysvar="Output131" type="string" sample="ON 100%" />
+    <variable name="Output STR 132" sysvar="Output132" type="string" sample="ON 100%" />
+    <variable name="Output STR 133" sysvar="Output133" type="string" sample="ON 100%" />
+    <variable name="Output STR 134" sysvar="Output134" type="string" sample="ON 100%" />
+    <variable name="Output STR 135" sysvar="Output135" type="string" sample="ON 100%" />
+    <variable name="Output STR 136" sysvar="Output136" type="string" sample="ON 100%" />
+    <variable name="Output STR 137" sysvar="Output137" type="string" sample="ON 100%" />
+    <variable name="Output STR 138" sysvar="Output138" type="string" sample="ON 100%" />
+    <variable name="Output STR 139" sysvar="Output139" type="string" sample="ON 100%" />
+    <variable name="Output STR 140" sysvar="Output140" type="string" sample="ON 100%" />
+    <variable name="Output STR 141" sysvar="Output141" type="string" sample="ON 100%" />
+    <variable name="Output STR 142" sysvar="Output142" type="string" sample="ON 100%" />
+    <variable name="Output STR 143" sysvar="Output143" type="string" sample="ON 100%" />
+    <variable name="Output STR 144" sysvar="Output144" type="string" sample="ON 100%" />
+    <variable name="Output STR 145" sysvar="Output145" type="string" sample="ON 100%" />
+    <variable name="Output STR 146" sysvar="Output146" type="string" sample="ON 100%" />
+    <variable name="Output STR 147" sysvar="Output147" type="string" sample="ON 100%" />
+    <variable name="Output STR 148" sysvar="Output148" type="string" sample="ON 100%" />
+    <variable name="Output STR 149" sysvar="Output149" type="string" sample="ON 100%" />
+    <variable name="Output STR 150" sysvar="Output150" type="string" sample="ON 100%" />
+    <variable name="Output STR 151" sysvar="Output151" type="string" sample="ON 100%" />
+    <variable name="Output STR 152" sysvar="Output152" type="string" sample="ON 100%" />
+    <variable name="Output STR 153" sysvar="Output153" type="string" sample="ON 100%" />
+    <variable name="Output STR 154" sysvar="Output154" type="string" sample="ON 100%" />
+    <variable name="Output STR 155" sysvar="Output155" type="string" sample="ON 100%" />
+    <variable name="Output STR 156" sysvar="Output156" type="string" sample="ON 100%" />
+    <variable name="Output STR 157" sysvar="Output157" type="string" sample="ON 100%" />
+    <variable name="Output STR 158" sysvar="Output158" type="string" sample="ON 100%" />
+    <variable name="Output STR 159" sysvar="Output159" type="string" sample="ON 100%" />
+    <variable name="Output STR 160" sysvar="Output160" type="string" sample="ON 100%" />
+    <variable name="Output STR 161" sysvar="Output161" type="string" sample="ON 100%" />
+    <variable name="Output STR 162" sysvar="Output162" type="string" sample="ON 100%" />
+    <variable name="Output STR 163" sysvar="Output163" type="string" sample="ON 100%" />
+    <variable name="Output STR 164" sysvar="Output164" type="string" sample="ON 100%" />
+    <variable name="Output STR 165" sysvar="Output165" type="string" sample="ON 100%" />
+    <variable name="Output STR 166" sysvar="Output166" type="string" sample="ON 100%" />
+    <variable name="Output STR 167" sysvar="Output167" type="string" sample="ON 100%" />
+    <variable name="Output STR 168" sysvar="Output168" type="string" sample="ON 100%" />
+    <variable name="Output STR 169" sysvar="Output169" type="string" sample="ON 100%" />
+    <variable name="Output STR 170" sysvar="Output170" type="string" sample="ON 100%" />
+    <variable name="Output STR 171" sysvar="Output171" type="string" sample="ON 100%" />
+    <variable name="Output STR 172" sysvar="Output172" type="string" sample="ON 100%" />
+    <variable name="Output STR 173" sysvar="Output173" type="string" sample="ON 100%" />
+    <variable name="Output STR 174" sysvar="Output174" type="string" sample="ON 100%" />
+    <variable name="Output STR 175" sysvar="Output175" type="string" sample="ON 100%" />
+    <variable name="Output STR 176" sysvar="Output176" type="string" sample="ON 100%" />
+    <variable name="Output STR 177" sysvar="Output177" type="string" sample="ON 100%" />
+    <variable name="Output STR 178" sysvar="Output178" type="string" sample="ON 100%" />
+    <variable name="Output STR 179" sysvar="Output179" type="string" sample="ON 100%" />
+    <variable name="Output STR 180" sysvar="Output180" type="string" sample="ON 100%" />
+    <variable name="Output STR 181" sysvar="Output181" type="string" sample="ON 100%" />
+    <variable name="Output STR 182" sysvar="Output182" type="string" sample="ON 100%" />
+    <variable name="Output STR 183" sysvar="Output183" type="string" sample="ON 100%" />
+    <variable name="Output STR 184" sysvar="Output184" type="string" sample="ON 100%" />
+    <variable name="Output STR 185" sysvar="Output185" type="string" sample="ON 100%" />
+    <variable name="Output STR 186" sysvar="Output186" type="string" sample="ON 100%" />
+    <variable name="Output STR 187" sysvar="Output187" type="string" sample="ON 100%" />
+    <variable name="Output STR 188" sysvar="Output188" type="string" sample="ON 100%" />
+    <variable name="Output STR 189" sysvar="Output189" type="string" sample="ON 100%" />
+    <variable name="Output STR 190" sysvar="Output190" type="string" sample="ON 100%" />
+    <variable name="Output STR 191" sysvar="Output191" type="string" sample="ON 100%" />
+    <variable name="Output STR 192" sysvar="Output192" type="string" sample="ON 100%" />
+    <variable name="Output STR 193" sysvar="Output193" type="string" sample="ON 100%" />
+    <variable name="Output STR 194" sysvar="Output194" type="string" sample="ON 100%" />
+    <variable name="Output STR 195" sysvar="Output195" type="string" sample="ON 100%" />
+    <variable name="Output STR 196" sysvar="Output196" type="string" sample="ON 100%" />
+    <variable name="Output STR 197" sysvar="Output197" type="string" sample="ON 100%" />
+    <variable name="Output STR 198" sysvar="Output198" type="string" sample="ON 100%" />
+    <variable name="Output STR 199" sysvar="Output199" type="string" sample="ON 100%" />
+    <variable name="Output STR 200" sysvar="Output200" type="string" sample="ON 100%" />
+    <variable name="Output STR 201" sysvar="Output201" type="string" sample="ON 100%" />
+    <variable name="Output STR 202" sysvar="Output202" type="string" sample="ON 100%" />
+    <variable name="Output STR 203" sysvar="Output203" type="string" sample="ON 100%" />
+    <variable name="Output STR 204" sysvar="Output204" type="string" sample="ON 100%" />
+    <variable name="Output STR 205" sysvar="Output205" type="string" sample="ON 100%" />
+    <variable name="Output STR 206" sysvar="Output206" type="string" sample="ON 100%" />
+    <variable name="Output STR 207" sysvar="Output207" type="string" sample="ON 100%" />
+    <variable name="Output STR 208" sysvar="Output208" type="string" sample="ON 100%" />
+    <variable name="Output STR 209" sysvar="Output209" type="string" sample="ON 100%" />
+    <variable name="Output STR 210" sysvar="Output210" type="string" sample="ON 100%" />
+    <variable name="Output STR 211" sysvar="Output211" type="string" sample="ON 100%" />
+    <variable name="Output STR 212" sysvar="Output212" type="string" sample="ON 100%" />
+    <variable name="Output STR 213" sysvar="Output213" type="string" sample="ON 100%" />
+    <variable name="Output STR 214" sysvar="Output214" type="string" sample="ON 100%" />
+    <variable name="Output STR 215" sysvar="Output215" type="string" sample="ON 100%" />
+    <variable name="Output STR 216" sysvar="Output216" type="string" sample="ON 100%" />
+    <variable name="Output STR 217" sysvar="Output217" type="string" sample="ON 100%" />
+    <variable name="Output STR 218" sysvar="Output218" type="string" sample="ON 100%" />
+    <variable name="Output STR 219" sysvar="Output219" type="string" sample="ON 100%" />
+    <variable name="Output STR 220" sysvar="Output220" type="string" sample="ON 100%" />
+    <variable name="Output STR 221" sysvar="Output221" type="string" sample="ON 100%" />
+    <variable name="Output STR 222" sysvar="Output222" type="string" sample="ON 100%" />
+    <variable name="Output STR 223" sysvar="Output223" type="string" sample="ON 100%" />
+    <variable name="Output STR 224" sysvar="Output224" type="string" sample="ON 100%" />
+    <variable name="Output STR 225" sysvar="Output225" type="string" sample="ON 100%" />
+    <variable name="Output STR 226" sysvar="Output226" type="string" sample="ON 100%" />
+    <variable name="Output STR 227" sysvar="Output227" type="string" sample="ON 100%" />
+    <variable name="Output STR 228" sysvar="Output228" type="string" sample="ON 100%" />
+    <variable name="Output STR 229" sysvar="Output229" type="string" sample="ON 100%" />
+    <variable name="Output STR 230" sysvar="Output230" type="string" sample="ON 100%" />
+    <variable name="Output STR 231" sysvar="Output231" type="string" sample="ON 100%" />
+    <variable name="Output STR 232" sysvar="Output232" type="string" sample="ON 100%" />
+    <variable name="Output STR 233" sysvar="Output233" type="string" sample="ON 100%" />
+    <variable name="Output STR 234" sysvar="Output234" type="string" sample="ON 100%" />
+    <variable name="Output STR 235" sysvar="Output235" type="string" sample="ON 100%" />
+    <variable name="Output STR 236" sysvar="Output236" type="string" sample="ON 100%" />
+    <variable name="Output STR 237" sysvar="Output237" type="string" sample="ON 100%" />
+    <variable name="Output STR 238" sysvar="Output238" type="string" sample="ON 100%" />
+    <variable name="Output STR 239" sysvar="Output239" type="string" sample="ON 100%" />
+
+    <variable name="Output BIT State 0" sysvar="OutputState0" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 1" sysvar="OutputState1" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 2" sysvar="OutputState2" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 3" sysvar="OutputState3" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 4" sysvar="OutputState4" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 5" sysvar="OutputState5" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 6" sysvar="OutputState6" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 7" sysvar="OutputState7" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 8" sysvar="OutputState8" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 9" sysvar="OutputState9" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 10" sysvar="OutputState10" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 11" sysvar="OutputState11" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 12" sysvar="OutputState12" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 13" sysvar="OutputState13" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 14" sysvar="OutputState14" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 15" sysvar="OutputState15" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 16" sysvar="OutputState16" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 17" sysvar="OutputState17" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 18" sysvar="OutputState18" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 19" sysvar="OutputState19" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 20" sysvar="OutputState20" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 21" sysvar="OutputState21" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 22" sysvar="OutputState22" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 23" sysvar="OutputState23" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 24" sysvar="OutputState24" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 25" sysvar="OutputState25" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 26" sysvar="OutputState26" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 27" sysvar="OutputState27" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 28" sysvar="OutputState28" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 29" sysvar="OutputState29" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 30" sysvar="OutputState30" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 31" sysvar="OutputState31" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 32" sysvar="OutputState32" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 33" sysvar="OutputState33" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 34" sysvar="OutputState34" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 35" sysvar="OutputState35" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 36" sysvar="OutputState36" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 37" sysvar="OutputState37" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 38" sysvar="OutputState38" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 39" sysvar="OutputState39" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 40" sysvar="OutputState40" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 41" sysvar="OutputState41" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 42" sysvar="OutputState42" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 43" sysvar="OutputState43" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 44" sysvar="OutputState44" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 45" sysvar="OutputState45" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 46" sysvar="OutputState46" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 47" sysvar="OutputState47" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 48" sysvar="OutputState48" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 49" sysvar="OutputState49" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 50" sysvar="OutputState50" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 51" sysvar="OutputState51" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 52" sysvar="OutputState52" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 53" sysvar="OutputState53" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 54" sysvar="OutputState54" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 55" sysvar="OutputState55" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 56" sysvar="OutputState56" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 57" sysvar="OutputState57" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 58" sysvar="OutputState58" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 59" sysvar="OutputState59" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 60" sysvar="OutputState60" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 61" sysvar="OutputState61" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 62" sysvar="OutputState62" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 63" sysvar="OutputState63" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 64" sysvar="OutputState64" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 65" sysvar="OutputState65" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 66" sysvar="OutputState66" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 67" sysvar="OutputState67" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 68" sysvar="OutputState68" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 69" sysvar="OutputState69" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 70" sysvar="OutputState70" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 71" sysvar="OutputState71" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 72" sysvar="OutputState72" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 73" sysvar="OutputState73" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 74" sysvar="OutputState74" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 75" sysvar="OutputState75" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 76" sysvar="OutputState76" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 77" sysvar="OutputState77" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 78" sysvar="OutputState78" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 79" sysvar="OutputState79" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 80" sysvar="OutputState80" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 81" sysvar="OutputState81" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 82" sysvar="OutputState82" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 83" sysvar="OutputState83" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 84" sysvar="OutputState84" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 85" sysvar="OutputState85" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 86" sysvar="OutputState86" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 87" sysvar="OutputState87" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 88" sysvar="OutputState88" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 89" sysvar="OutputState89" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 90" sysvar="OutputState90" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 91" sysvar="OutputState91" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 92" sysvar="OutputState92" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 93" sysvar="OutputState93" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 94" sysvar="OutputState94" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 95" sysvar="OutputState95" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 96" sysvar="OutputState96" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 97" sysvar="OutputState97" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 98" sysvar="OutputState98" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 99" sysvar="OutputState99" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 100" sysvar="OutputState100" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 101" sysvar="OutputState101" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 102" sysvar="OutputState102" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 103" sysvar="OutputState103" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 104" sysvar="OutputState104" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 105" sysvar="OutputState105" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 106" sysvar="OutputState106" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 107" sysvar="OutputState107" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 108" sysvar="OutputState108" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 109" sysvar="OutputState109" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 110" sysvar="OutputState110" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 111" sysvar="OutputState111" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 112" sysvar="OutputState112" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 113" sysvar="OutputState113" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 114" sysvar="OutputState114" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 115" sysvar="OutputState115" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 116" sysvar="OutputState116" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 117" sysvar="OutputState117" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 118" sysvar="OutputState118" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 119" sysvar="OutputState119" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 120" sysvar="OutputState120" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 121" sysvar="OutputState121" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 122" sysvar="OutputState122" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 123" sysvar="OutputState123" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 124" sysvar="OutputState124" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 125" sysvar="OutputState125" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 126" sysvar="OutputState126" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 127" sysvar="OutputState127" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 128" sysvar="OutputState128" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 129" sysvar="OutputState129" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 130" sysvar="OutputState130" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 131" sysvar="OutputState131" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 132" sysvar="OutputState132" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 133" sysvar="OutputState133" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 134" sysvar="OutputState134" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 135" sysvar="OutputState135" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 136" sysvar="OutputState136" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 137" sysvar="OutputState137" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 138" sysvar="OutputState138" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 139" sysvar="OutputState139" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 140" sysvar="OutputState140" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 141" sysvar="OutputState141" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 142" sysvar="OutputState142" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 143" sysvar="OutputState143" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 144" sysvar="OutputState144" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 145" sysvar="OutputState145" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 146" sysvar="OutputState146" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 147" sysvar="OutputState147" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 148" sysvar="OutputState148" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 149" sysvar="OutputState149" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 150" sysvar="OutputState150" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 151" sysvar="OutputState151" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 152" sysvar="OutputState152" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 153" sysvar="OutputState153" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 154" sysvar="OutputState154" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 155" sysvar="OutputState155" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 156" sysvar="OutputState156" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 157" sysvar="OutputState157" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 158" sysvar="OutputState158" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 159" sysvar="OutputState159" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 160" sysvar="OutputState160" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 161" sysvar="OutputState161" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 162" sysvar="OutputState162" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 163" sysvar="OutputState163" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 164" sysvar="OutputState164" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 165" sysvar="OutputState165" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 166" sysvar="OutputState166" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 167" sysvar="OutputState167" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 168" sysvar="OutputState168" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 169" sysvar="OutputState169" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 170" sysvar="OutputState170" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 171" sysvar="OutputState171" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 172" sysvar="OutputState172" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 173" sysvar="OutputState173" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 174" sysvar="OutputState174" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 175" sysvar="OutputState175" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 176" sysvar="OutputState176" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 177" sysvar="OutputState177" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 178" sysvar="OutputState178" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 179" sysvar="OutputState179" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 180" sysvar="OutputState180" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 181" sysvar="OutputState181" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 182" sysvar="OutputState182" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 183" sysvar="OutputState183" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 184" sysvar="OutputState184" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 185" sysvar="OutputState185" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 186" sysvar="OutputState186" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 187" sysvar="OutputState187" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 188" sysvar="OutputState188" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 189" sysvar="OutputState189" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 190" sysvar="OutputState190" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 191" sysvar="OutputState191" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 192" sysvar="OutputState192" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 193" sysvar="OutputState193" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 194" sysvar="OutputState194" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 195" sysvar="OutputState195" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 196" sysvar="OutputState196" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 197" sysvar="OutputState197" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 198" sysvar="OutputState198" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 199" sysvar="OutputState199" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 200" sysvar="OutputState200" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 201" sysvar="OutputState201" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 202" sysvar="OutputState202" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 203" sysvar="OutputState203" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 204" sysvar="OutputState204" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 205" sysvar="OutputState205" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 206" sysvar="OutputState206" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 207" sysvar="OutputState207" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 208" sysvar="OutputState208" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 209" sysvar="OutputState209" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 210" sysvar="OutputState210" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 211" sysvar="OutputState211" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 212" sysvar="OutputState212" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 213" sysvar="OutputState213" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 214" sysvar="OutputState214" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 215" sysvar="OutputState215" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 216" sysvar="OutputState216" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 217" sysvar="OutputState217" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 218" sysvar="OutputState218" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 219" sysvar="OutputState219" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 220" sysvar="OutputState220" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 221" sysvar="OutputState221" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 222" sysvar="OutputState222" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 223" sysvar="OutputState223" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 224" sysvar="OutputState224" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 225" sysvar="OutputState225" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 226" sysvar="OutputState226" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 227" sysvar="OutputState227" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 228" sysvar="OutputState228" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 229" sysvar="OutputState229" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 230" sysvar="OutputState230" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 231" sysvar="OutputState231" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 232" sysvar="OutputState232" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 233" sysvar="OutputState233" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 234" sysvar="OutputState234" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 235" sysvar="OutputState235" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 236" sysvar="OutputState236" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 237" sysvar="OutputState237" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 238" sysvar="OutputState238" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Output BIT State 239" sysvar="OutputState239" type="boolean" sample="false" format="B:false:true" />
+
+    <variable name="Dimmer INT 0" sysvar="Dimmer0" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 1" sysvar="Dimmer1" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 2" sysvar="Dimmer2" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 3" sysvar="Dimmer3" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 4" sysvar="Dimmer4" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 5" sysvar="Dimmer5" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 6" sysvar="Dimmer6" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 7" sysvar="Dimmer7" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 8" sysvar="Dimmer8" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 9" sysvar="Dimmer9" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 10" sysvar="Dimmer10" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 11" sysvar="Dimmer11" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 12" sysvar="Dimmer12" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 13" sysvar="Dimmer13" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 14" sysvar="Dimmer14" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 15" sysvar="Dimmer15" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 16" sysvar="Dimmer16" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 17" sysvar="Dimmer17" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 18" sysvar="Dimmer18" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 19" sysvar="Dimmer19" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 20" sysvar="Dimmer20" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 21" sysvar="Dimmer21" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 22" sysvar="Dimmer22" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 23" sysvar="Dimmer23" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 24" sysvar="Dimmer24" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 25" sysvar="Dimmer25" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 26" sysvar="Dimmer26" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 27" sysvar="Dimmer27" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 28" sysvar="Dimmer28" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 29" sysvar="Dimmer29" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 30" sysvar="Dimmer30" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 31" sysvar="Dimmer31" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 32" sysvar="Dimmer32" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 33" sysvar="Dimmer33" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 34" sysvar="Dimmer34" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 35" sysvar="Dimmer35" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 36" sysvar="Dimmer36" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 37" sysvar="Dimmer37" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 38" sysvar="Dimmer38" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 39" sysvar="Dimmer39" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 40" sysvar="Dimmer40" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 41" sysvar="Dimmer41" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 42" sysvar="Dimmer42" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 43" sysvar="Dimmer43" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 44" sysvar="Dimmer44" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 45" sysvar="Dimmer45" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 46" sysvar="Dimmer46" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 47" sysvar="Dimmer47" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 48" sysvar="Dimmer48" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 49" sysvar="Dimmer49" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 50" sysvar="Dimmer50" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 51" sysvar="Dimmer51" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 52" sysvar="Dimmer52" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 53" sysvar="Dimmer53" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 54" sysvar="Dimmer54" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 55" sysvar="Dimmer55" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 56" sysvar="Dimmer56" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 57" sysvar="Dimmer57" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 58" sysvar="Dimmer58" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 59" sysvar="Dimmer59" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 60" sysvar="Dimmer60" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 61" sysvar="Dimmer61" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 62" sysvar="Dimmer62" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 63" sysvar="Dimmer63" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 64" sysvar="Dimmer64" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 65" sysvar="Dimmer65" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 66" sysvar="Dimmer66" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 67" sysvar="Dimmer67" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 68" sysvar="Dimmer68" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 69" sysvar="Dimmer69" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 70" sysvar="Dimmer70" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 71" sysvar="Dimmer71" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 72" sysvar="Dimmer72" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 73" sysvar="Dimmer73" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 74" sysvar="Dimmer74" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 75" sysvar="Dimmer75" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 76" sysvar="Dimmer76" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 77" sysvar="Dimmer77" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 78" sysvar="Dimmer78" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 79" sysvar="Dimmer79" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 80" sysvar="Dimmer80" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 81" sysvar="Dimmer81" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 82" sysvar="Dimmer82" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 83" sysvar="Dimmer83" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 84" sysvar="Dimmer84" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 85" sysvar="Dimmer85" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 86" sysvar="Dimmer86" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 87" sysvar="Dimmer87" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 88" sysvar="Dimmer88" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 89" sysvar="Dimmer89" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 90" sysvar="Dimmer90" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 91" sysvar="Dimmer91" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 92" sysvar="Dimmer92" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 93" sysvar="Dimmer93" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 94" sysvar="Dimmer94" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 95" sysvar="Dimmer95" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 96" sysvar="Dimmer96" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 97" sysvar="Dimmer97" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 98" sysvar="Dimmer98" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 99" sysvar="Dimmer99" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 100" sysvar="Dimmer100" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 101" sysvar="Dimmer101" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 102" sysvar="Dimmer102" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 103" sysvar="Dimmer103" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 104" sysvar="Dimmer104" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 105" sysvar="Dimmer105" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 106" sysvar="Dimmer106" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 107" sysvar="Dimmer107" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 108" sysvar="Dimmer108" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 109" sysvar="Dimmer109" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 110" sysvar="Dimmer110" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 111" sysvar="Dimmer111" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 112" sysvar="Dimmer112" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 113" sysvar="Dimmer113" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 114" sysvar="Dimmer114" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 115" sysvar="Dimmer115" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 116" sysvar="Dimmer116" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 117" sysvar="Dimmer117" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 118" sysvar="Dimmer118" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 119" sysvar="Dimmer119" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 120" sysvar="Dimmer120" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 121" sysvar="Dimmer121" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 122" sysvar="Dimmer122" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 123" sysvar="Dimmer123" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 124" sysvar="Dimmer124" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 125" sysvar="Dimmer125" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 126" sysvar="Dimmer126" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 127" sysvar="Dimmer127" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 128" sysvar="Dimmer128" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 129" sysvar="Dimmer129" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 130" sysvar="Dimmer130" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 131" sysvar="Dimmer131" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 132" sysvar="Dimmer132" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 133" sysvar="Dimmer133" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 134" sysvar="Dimmer134" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 135" sysvar="Dimmer135" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 136" sysvar="Dimmer136" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 137" sysvar="Dimmer137" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 138" sysvar="Dimmer138" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 139" sysvar="Dimmer139" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 140" sysvar="Dimmer140" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 141" sysvar="Dimmer141" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 142" sysvar="Dimmer142" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 143" sysvar="Dimmer143" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 144" sysvar="Dimmer144" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 145" sysvar="Dimmer145" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 146" sysvar="Dimmer146" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 147" sysvar="Dimmer147" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 148" sysvar="Dimmer148" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 149" sysvar="Dimmer149" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 150" sysvar="Dimmer150" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 151" sysvar="Dimmer151" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 152" sysvar="Dimmer152" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 153" sysvar="Dimmer153" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 154" sysvar="Dimmer154" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 155" sysvar="Dimmer155" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 156" sysvar="Dimmer156" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 157" sysvar="Dimmer157" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 158" sysvar="Dimmer158" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 159" sysvar="Dimmer159" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 160" sysvar="Dimmer160" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 161" sysvar="Dimmer161" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 162" sysvar="Dimmer162" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 163" sysvar="Dimmer163" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 164" sysvar="Dimmer164" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 165" sysvar="Dimmer165" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 166" sysvar="Dimmer166" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 167" sysvar="Dimmer167" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 168" sysvar="Dimmer168" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 169" sysvar="Dimmer169" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 170" sysvar="Dimmer170" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 171" sysvar="Dimmer171" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 172" sysvar="Dimmer172" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 173" sysvar="Dimmer173" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 174" sysvar="Dimmer174" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 175" sysvar="Dimmer175" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 176" sysvar="Dimmer176" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 177" sysvar="Dimmer177" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 178" sysvar="Dimmer178" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 179" sysvar="Dimmer179" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 180" sysvar="Dimmer180" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 181" sysvar="Dimmer181" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 182" sysvar="Dimmer182" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 183" sysvar="Dimmer183" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 184" sysvar="Dimmer184" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 185" sysvar="Dimmer185" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 186" sysvar="Dimmer186" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 187" sysvar="Dimmer187" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 188" sysvar="Dimmer188" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 189" sysvar="Dimmer189" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 190" sysvar="Dimmer190" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 191" sysvar="Dimmer191" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 192" sysvar="Dimmer192" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 193" sysvar="Dimmer193" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 194" sysvar="Dimmer194" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 195" sysvar="Dimmer195" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 196" sysvar="Dimmer196" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 197" sysvar="Dimmer197" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 198" sysvar="Dimmer198" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 199" sysvar="Dimmer199" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 200" sysvar="Dimmer200" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 201" sysvar="Dimmer201" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 202" sysvar="Dimmer202" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 203" sysvar="Dimmer203" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 204" sysvar="Dimmer204" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 205" sysvar="Dimmer205" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 206" sysvar="Dimmer206" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 207" sysvar="Dimmer207" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 208" sysvar="Dimmer208" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 209" sysvar="Dimmer209" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 210" sysvar="Dimmer210" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 211" sysvar="Dimmer211" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 212" sysvar="Dimmer212" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 213" sysvar="Dimmer213" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 214" sysvar="Dimmer214" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 215" sysvar="Dimmer215" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 216" sysvar="Dimmer216" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 217" sysvar="Dimmer217" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 218" sysvar="Dimmer218" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 219" sysvar="Dimmer219" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 220" sysvar="Dimmer220" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 221" sysvar="Dimmer221" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 222" sysvar="Dimmer222" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 223" sysvar="Dimmer223" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 224" sysvar="Dimmer224" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 225" sysvar="Dimmer225" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 226" sysvar="Dimmer226" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 227" sysvar="Dimmer227" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 228" sysvar="Dimmer228" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 229" sysvar="Dimmer229" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 230" sysvar="Dimmer230" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 231" sysvar="Dimmer231" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 232" sysvar="Dimmer232" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 233" sysvar="Dimmer233" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 234" sysvar="Dimmer234" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 235" sysvar="Dimmer235" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 236" sysvar="Dimmer236" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 237" sysvar="Dimmer237" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 238" sysvar="Dimmer238" type="integer" sample="50" min="0" max="63" />
+    <variable name="Dimmer INT 239" sysvar="Dimmer239" type="integer" sample="50" min="0" max="63" />
+
+    <variable name="Thermostat BIT On" sysvar="ThermostatOn" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Mode Auto" sysvar="ThermostatModeAuto" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Mode Manual" sysvar="ThermostatModeManual" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Mode Party" sysvar="ThermostatModeParty" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Mode Away" sysvar="ThermostatModeAway" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Mode Vacation" sysvar="ThermostatModeVacation" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Mode Integer" sysvar="ThermostatModeInt" type="integer" sample="50" min="0" max="255"/>
+    <variable name="Thermostat BIT Mode" sysvar="ThermostatMode" type="string" sample="AUTOMATIC" />
+
+    <variable name="Thermostat Name STR 0" sysvar="ThermostatName0" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 1" sysvar="ThermostatName1" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 2" sysvar="ThermostatName2" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 3" sysvar="ThermostatName3" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 4" sysvar="ThermostatName4" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 5" sysvar="ThermostatName5" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 6" sysvar="ThermostatName6" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 7" sysvar="ThermostatName7" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 8" sysvar="ThermostatName8" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 9" sysvar="ThermostatName9" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 10" sysvar="ThermostatName10" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 11" sysvar="ThermostatName11" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 12" sysvar="ThermostatName12" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 13" sysvar="ThermostatName13" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 14" sysvar="ThermostatName14" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 15" sysvar="ThermostatName15" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 16" sysvar="ThermostatName16" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 17" sysvar="ThermostatName17" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 18" sysvar="ThermostatName18" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 19" sysvar="ThermostatName19" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 20" sysvar="ThermostatName20" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 21" sysvar="ThermostatName21" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 22" sysvar="ThermostatName22" type="string" sample="Living room" />
+    <variable name="Thermostat Name STR 23" sysvar="ThermostatName23" type="string" sample="Living room" />
+
+    <variable name="Thermostat Setpoint STR 0" sysvar="Setpoint0" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 1" sysvar="Setpoint1" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 2" sysvar="Setpoint2" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 3" sysvar="Setpoint3" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 4" sysvar="Setpoint4" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 5" sysvar="Setpoint5" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 6" sysvar="Setpoint6" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 7" sysvar="Setpoint7" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 8" sysvar="Setpoint8" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 9" sysvar="Setpoint9" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 10" sysvar="Setpoint10" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 11" sysvar="Setpoint11" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 12" sysvar="Setpoint12" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 13" sysvar="Setpoint13" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 14" sysvar="Setpoint14" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 15" sysvar="Setpoint15" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 16" sysvar="Setpoint16" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 17" sysvar="Setpoint17" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 18" sysvar="Setpoint18" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 19" sysvar="Setpoint19" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 20" sysvar="Setpoint20" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 21" sysvar="Setpoint21" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 22" sysvar="Setpoint22" type="string" sample="21" />
+    <variable name="Thermostat Setpoint STR 23" sysvar="Setpoint23" type="string" sample="21" />
+
+    <variable name="Thermostat Temperature STR 0" sysvar="Temperature0" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 1" sysvar="Temperature1" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 2" sysvar="Temperature2" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 3" sysvar="Temperature3" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 4" sysvar="Temperature4" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 5" sysvar="Temperature5" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 6" sysvar="Temperature6" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 7" sysvar="Temperature7" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 8" sysvar="Temperature8" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 9" sysvar="Temperature9" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 10" sysvar="Temperature10" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 11" sysvar="Temperature11" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 12" sysvar="Temperature12" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 13" sysvar="Temperature13" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 14" sysvar="Temperature14" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 15" sysvar="Temperature15" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 16" sysvar="Temperature16" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 17" sysvar="Temperature17" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 18" sysvar="Temperature18" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 19" sysvar="Temperature19" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 20" sysvar="Temperature20" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 21" sysvar="Temperature21" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 22" sysvar="Temperature22" type="string" sample="21" />
+    <variable name="Thermostat Temperature STR 23" sysvar="Temperature23" type="string" sample="21" />
+    <variable name="Outside STR Temperature" sysvar="OutsideTemperature" type="string" sample="21" />
+    <variable name="Thermostat STR OutputA 0" sysvar="ThermostatOutA0" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 1" sysvar="ThermostatOutA1" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 2" sysvar="ThermostatOutA2" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 3" sysvar="ThermostatOutA3" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 4" sysvar="ThermostatOutA4" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 5" sysvar="ThermostatOutA5" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 6" sysvar="ThermostatOutA6" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 7" sysvar="ThermostatOutA7" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 8" sysvar="ThermostatOutA8" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 9" sysvar="ThermostatOutA9" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 10" sysvar="ThermostatOutA10" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 11" sysvar="ThermostatOutA11" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 12" sysvar="ThermostatOutA12" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 13" sysvar="ThermostatOutA13" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 14" sysvar="ThermostatOutA14" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 15" sysvar="ThermostatOutA15" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 16" sysvar="ThermostatOutA16" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 17" sysvar="ThermostatOutA17" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 18" sysvar="ThermostatOutA18" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 19" sysvar="ThermostatOutA19" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 20" sysvar="ThermostatOutA20" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 21" sysvar="ThermostatOutA21" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 22" sysvar="ThermostatOutA22" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputA 23" sysvar="ThermostatOutA23" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 0" sysvar="ThermostatOutB0" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 1" sysvar="ThermostatOutB1" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 2" sysvar="ThermostatOutB2" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 3" sysvar="ThermostatOutB3" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 4" sysvar="ThermostatOutB4" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 5" sysvar="ThermostatOutB5" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 6" sysvar="ThermostatOutB6" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 7" sysvar="ThermostatOutB7" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 8" sysvar="ThermostatOutB8" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 9" sysvar="ThermostatOutB9" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 10" sysvar="ThermostatOutB10" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 11" sysvar="ThermostatOutB11" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 12" sysvar="ThermostatOutB12" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 13" sysvar="ThermostatOutB13" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 14" sysvar="ThermostatOutB14" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 15" sysvar="ThermostatOutB15" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 16" sysvar="ThermostatOutB16" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 17" sysvar="ThermostatOutB17" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 18" sysvar="ThermostatOutB18" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 19" sysvar="ThermostatOutB19" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 20" sysvar="ThermostatOutB20" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 21" sysvar="ThermostatOutB21" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 22" sysvar="ThermostatOutB22" type="string" sample="100%" />
+    <variable name="Thermostat STR OutputB 23" sysvar="ThermostatOutB23" type="string" sample="100%" />
+
+    <variable name="Thermostat BIT Heating 0" sysvar="ThermostatHeating0" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 1" sysvar="ThermostatHeating1" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 2" sysvar="ThermostatHeating2" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 3" sysvar="ThermostatHeating3" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 4" sysvar="ThermostatHeating4" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 5" sysvar="ThermostatHeating5" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 6" sysvar="ThermostatHeating6" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 7" sysvar="ThermostatHeating7" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 8" sysvar="ThermostatHeating8" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 9" sysvar="ThermostatHeating9" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 10" sysvar="ThermostatHeating10" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 11" sysvar="ThermostatHeating11" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 12" sysvar="ThermostatHeating12" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 13" sysvar="ThermostatHeating13" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 14" sysvar="ThermostatHeating14" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 15" sysvar="ThermostatHeating15" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 16" sysvar="ThermostatHeating16" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 17" sysvar="ThermostatHeating17" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 18" sysvar="ThermostatHeating18" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 19" sysvar="ThermostatHeating19" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 20" sysvar="ThermostatHeating20" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 21" sysvar="ThermostatHeating21" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 22" sysvar="ThermostatHeating22" type="boolean" sample="false" format="B:false:true" />
+    <variable name="Thermostat BIT Heating 23" sysvar="ThermostatHeating23" type="boolean" sample="false" format="B:false:true" />
+
+    <variable name="Serial Counter " sysvar="SerialCounter" type="integer" sample="0" condition="1" />
+  </category>
+</variables>
